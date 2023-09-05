@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Gmail Account Creation</title>
+    <style>
+        body {
+           
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        border: 1px solid white;
+        border-radius: 3px;
+  
+        padding: 20px;
+      }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid #ccc;
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+
+
+        form input[type="text"], form input[type="First Name"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            background-color: white;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        form input[type="number"], form input[type="Contact Number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            background-color: white;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        
+        form input[type="email"], form input[type="Email id"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            background-color: transparent;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        form input[type="email"]:focus, form input[type="Email id"]:focus {
+            background-color:  rgba(70, 130, 180, 0.35);
+        }
+
+        form button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button[type="reset"] {
+            background-color: #ccc;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <section id="block">
+        
+        <video autoplay loop muted>
+            <source src="./Background.mp4" type="video/mp4">
+          </video>
+
+    <div>
+    <form action ="" id="lab-form">
+        <h2>Create a Gmail Account</h2>
+        <input type="text" placeholder="First Name" required>
+        <input type="number" placeholder="Contact Number" required>
+        <input type="email" placeholder="Email id" required>
+        <!-- <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required> -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    </div>
+    </section>
+</body>
+</html>
